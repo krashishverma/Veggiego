@@ -1,0 +1,236 @@
+.carousel-item {
+    height: 22rem;
+    background: #777;
+    color: white;
+    position: relative;
+    transition: transform 1s ease-in-out;
+
+  }
+
+  .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+    width: auto;
+    height: auto;
+
+  }
+
+  .as {
+    margin-left: 1.5px;
+    margin-right: 1.5px;
+    padding: 60px;
+  }
+  .searchopt{
+    margin: 0 auto;
+    width: 400px;
+  }
+.searchopt input[type=text] {
+  padding: 8px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+ 
+}
+.searchbox{
+  outline: none;
+  width: 500px;
+}
+.button :hover{
+ color: #000;
+}
+.searchopt button{
+  float: left;
+  width: 20%;
+  padding: 8px;
+  background: #077a13;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+.searchopt button:hover{
+  background: rgb(45, 180, 45);
+}
+  .ash {
+    font-size: 30px;
+    float: left;
+    text-decoration: underline;
+    margin-left: 8px;
+  }
+
+  .item {
+    margin: 3%;
+    position: relative;
+    box-shadow: 10px 10px 5px grey;
+    
+  }
+
+  .veg {
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    text-shadow: 1px 1px gray;
+  }
+  .img-thumbnail {
+    width: 40px;
+  }
+  .sub-menu-1
+  {
+    display: none;
+  }
+  .menubar li ul a{
+    text-decoration: none;
+    color: #000;
+  }
+  .menubar :hover .sub-menu-1
+  {
+    display: block;
+    position: absolute;
+    background-color: #077a13;
+    padding: 50px;
+  overflow: hidden;
+  }
+  body {
+    background-color: white;
+  }
+  .container1{
+    position: relative;
+  }
+  .imgbox{
+    position: relative;
+  }
+  .container1{
+    background-color: #777;
+    padding: 20px;
+  }
+  .login{
+      text-decoration: none;
+      
+  }
+
+  body {
+    background-color: white;
+    flex-wrap: wrap;
+    
+  }
+  .container1{
+    position: relative;
+  }
+  .imgbox{
+    position: relative;
+  }
+  .container1{
+    background-color: #777;
+    padding: 20px;
+  }
+  .container2{
+        display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .container2 .card2 {
+     border-radius: 6px;
+    background-color: rgb(184, 189, 186);
+    padding: 10px;
+  }
+  .container2 .card2 img{
+      max-width: 100%;
+      height: auto;
+      padding: 0px;
+      border-radius: 6px;
+     overflow: hidden;
+     box-shadow: 3px 4px 8px rgb(30, 32, 31);
+  }
+  .container2 .card2 .card_name{
+      color: rgba(8, 43, 43, 0.932);
+  }
+  .container2 .pricerating{
+      font-size: 10px;
+      color: #777;
+  }
+  .container2 .rating .fa{
+      color: yellow;
+      cursor: pointer;
+  }
+  .container2 .rating .fa.grey{
+color: #ccc;
+  }
+  .contain{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px, 2fr));
+    grid-gap:5px;
+    padding: 10px;
+  }
+  .foot{
+    position: relative;
+    background-color: rgb(173, 172, 172);
+    text-align: center;
+    height: 200px;
+    border:solid 5px rgb(229, 221, 221);
+  }
+  .footimg{
+    position: absolute;
+  width: auto; 
+  height:40px;
+  margin-top: 5px;
+ text-align: center;
+ }
+ .grid-container{
+  display: flex;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(160px, auto));
+    grid-gap:30px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+ }
+ .items img{
+   justify-content: center;
+  max-width: 100%;
+  height: 400px;
+  padding: 0px;
+  border-radius: 6px;
+ overflow: hidden;
+ box-shadow: 3px 4px 8px rgb(30, 32, 31);
+ }
+ .foot{
+  justify-content: center;
+  display: grid;
+  grid-gap:25px;
+  grid-template-columns: auto auto;
+  display: flex;
+ }
+ .logo1{
+  padding-top: 12px;
+  font-size: 28px;
+ }
+.Item-name h1{
+  background-color: rgba(119, 119, 119, 0.448);
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: center;
+  box-shadow: 3px 4px 8px rgb(30, 32, 31);
+  font-size: 20px;
+}
+.Item-name h1:hover{
+  color: rgb(254, 250, 250);
+  background-color: black;
+  cursor: pointer;
+}
+.menubar{
+  
+}

@@ -1,0 +1,150 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+body{
+    background: #f2f2f2;font-family: sans-serif;
+}
+
+/*nav bar*/
+
+.navbar{
+    
+    background-color: black;
+    border-radius: 0px;
+    align-items: center;
+
+}
+
+.navbar ul li .logo-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 40%;
+    align-items: center;
+}
+
+.navbar ul{
+    overflow: auto;
+    align-items: center;
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+    
+    
+    
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+    
+}
+.navbar li a:hover{
+    color: red
+}
+
+.navbar li >button {
+
+background-color: blue;
+border: none;
+
+}
+
+
+
+
+
+/*/////////////////search section///////////////////////*/
+.search
+{
+height:75vh;
+background-image:linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.808))
+,url(/images/loginbackground.webp);
+background-size: cover;
+background-position: center;
+border-radius: 0px;
+display: flex;
+justify-content: center;
+align-items:center;
+font-family: sans-serif;
+margin-bottom: 25px;
+}
+.search h1{
+    color: #fff;
+    margin-bottom: 70px;
+    font-size: 45px;
+    letter-spacing: 2px;
+   
+ }
+
+.search-field{
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    
+}
+.course{
+    width: 400px;
+
+}
+.location{
+    width: 200px;
+}
+.search-btn{
+    height: 50px;
+    width: 150px;
+    background: #ffeb3b;
+    border: none;
+    color: #000;
+    border-radius: 25px;
+}
+    
+    .search-btn:hover{
+        background: #ffc107;
+        cursor: pointer;
+
+    }
+
+.article-contener{
+    margin-top: 0px;
+}
+
+.flexone{flex: 1;}
+
+.groups{margin: 0 auto;width: 780px;padding: 10px;height: auto;}
+.groups li{position: relative;list-style: none;background: #fff;border-radius: 5px;
+    box-shadow: 0 3px 4px 0 #0001;overflow: hidden;margin-bottom: 30px;transition: all 0.3s;}
+.groups li:hover{transform: scale(1.04);box-shadow: 0 4px 14px 0 #0005;}
+.groups .card{overflow: hidden;display: block;
+}
+.groups .image-session{float: left;overflow: hidden;margin-right: 20px;}
+.groups .image-session .image{width: 280px;height: 220px;display: block;background-size: cover;
+    background-position: center;}
+.groups .meta-sission{position: relative;padding: 15px;display: block;height: 220px;}
+.groups .meta-sission .head{display: flex;margin-bottom: 10px;}
+.groups .meta-sission .head .catogry{list-style: none;text-decoration: none;font-size: 14px;
+    font-weight: 600;color:#030301;}
+.meta-sission .head .per span,
+.meta-sission .head .per input{display: block;font-size: 10px;text-align: right;}
+.meta-sission .head .per input{-webkit-appearance: none;height: 5px;border-radius: 5px;background: #0001;
+    margin-bottom: 4px;overflow: hidden;}
+.meta-sission .head .per input::-webkit-slider-thumb{-webkit-appearance: none;width: 0;
+    box-shadow: -100px 0 0 100px #ffeb3b;}
+.groups .body .title{height: 60px;overflow: hidden;font-size: 24px;}
+.groups .body .desc{height: 45px;overflow: hidden;margin-bottom: 10px;font-size: 13px;}
+.groups .footer .button{bottom: 20px;background: #ffeb3b;color: rgb(0, 0, 0);
+    line-height: 2.2;padding: 8px 20px;border-radius: 50px;text-decoration: none;
+    box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
+.groups .footer .button:hover{box-shadow: 0 3px 8px 0 #0005;background: #fff;right: 15px;}
+.groups .footer .views{display: block;font-size: 12px;margin-top: 40px;}
+
+@media screen and (max-width:780px){.groups{    width: 96%;}
+    .groups li:hover{    transform: none;    box-shadow: none;}
+}
+@media screen and (max-width:560px){.groups .image-session{    float: none;    margin-right: 0;}
+    .groups .image-session .image{width: 100%;}
+}

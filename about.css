@@ -1,0 +1,20 @@
+.grid-container{
+    grid-template-rows: repeat(auto-fit minmax(240px 1fr));
+    grid-gap: 300px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.img-thumbnail {
+    width: 40px;
+  }
+.image img{
+   width: 500px;
+    height: 300px;
+    margin-top: 20px;
+   
+}
+.image1{
+  font-size: 100%;
+    margin-top: 20px;
+}
